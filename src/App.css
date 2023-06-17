@@ -1,0 +1,205 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden ;
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+.ans{
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.qa{
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #272635;
+  font-family: albert;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: right;
+  width: 100%;
+}
+
+.head h1{
+  font-size: 100px;
+  color: #B1E5F2;
+}
+
+.head h2{
+  font-size: 100px;
+  color: #A6A6A8;
+}
+
+.head h3{
+  color: #B1E5F2;
+}
+.body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #000000;
+  font-family: wix;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gn-btn{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.generate-q{
+  width: 50%;
+  padding: 15px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: albert;
+  border: none;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.generate-ans{
+  width: 50%;
+  padding: 15px;
+  background-color: transparent;
+  color: #000000;
+  font-family: albert;
+  border: none;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.num h1{
+  font-size: 250px;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+footer i{
+  font-size: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+@font-face {
+  font-family: albert;
+  src: url("../public/fonts/Albert_Sans/static/AlbertSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: wix;
+  src: url("../public/fonts/Wix_Madefor_Display/static/WixMadeforDisplay-Regular.ttf");
+}
+
+@media (max-width: 666px) {
+  .joke h1{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 602px) {
+  .num h1{
+    font-size: 220px;
+  }
+}
+
+@media (max-width: 530px) {
+  .num h1{
+    font-size: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .qa{
+    width: 300px;
+  }
+
+  .joke h1{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 424px) {
+  .qa {
+   width: 200px;
+  }
+}
+
+@media (max-width: 384px) {
+  .head h1, .head h2{
+    font-size: 70px;
+  }
+}
+
+@media (max-width:378px ) {
+  .generate-q , .generate-ans{
+    width: 200px;
+  }
+}
+
+@media (max-width: 362px) {
+  .num h1{
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 292px) {
+  .num h1{
+    font-size: 90px;
+  }
+  .joke h1{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 268px) {
+  .head h1, .head h2{
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 218px) {
+  .num h1{
+    font-size: 60px;
+  }
+}
